@@ -1,0 +1,25 @@
+﻿@page "/grpc"
+@inject Greeter.GreeterClient GreeterClient
+
+<h1>gRPC Example</h1>
+
+<p>
+    <input @bind="_yourName" placeholder="Type your name"/>
+    <button @onclick="GetGreetingAsync" class="btn btn-primary">Call gRPC service</button>
+</p>
+
+Server response: <strong>@_serverResponse</strong>
+
+@code {
+    private string _yourName = "Bert";
+    private string _serverResponse;
+
+    private async Task GetGreetingAsync()
+    {
+        var request = new HelloRequest {Name = _yourName};
+        var reply = await GreeterClient.SayHelloAsync(request);
+
+        _serverResponse = reply.Message;
+    }
+
+}
