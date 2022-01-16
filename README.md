@@ -27,7 +27,7 @@ Extend the sample Blazor web app and create a new page that allows requesting th
 - Introduction to ASP.NET Core Blazor: https://docs.microsoft.com/en-us/aspnet/core/blazor/
 
 ## Additional lectures (videos)
-- ASP.NET Core Series: Blazor: https://channel9.msdn.com/Shows/On-NET/ASPNET-Core-Series-Blazor
-- ASP.NET - Introducing Blazor: Razor Components: https://channel9.msdn.com/Series/ASPNET-Core-101/ASPNET-Introducing-Blazor-Razor-Components-10-of-13
-- ASP.NET - Introducing Blazor: Structure and Debugging: https://channel9.msdn.com/Series/ASPNET-Core-101/ASPNET-Introducing-Blazor-Structure-and-Debugging-11-of-13
-- ASP.NET - Introducing Blazor: Interactivity: https://channel9.msdn.com/Series/ASPNET-Core-101/ASPNET-Introducing-Blazor-Interactivity-12-of-13
+- ASP.NET Core Series: Blazor: https://docs.microsoft.com/en-us/shows/On-NET/ASPNET-Core-Series-Blazor
+- ASP.NET - Introducing Blazor: Razor Components: https://docs.microsoft.com/en-us/shows/ASPNET-Core-101/ASPNET-Introducing-Blazor-Razor-Components-10-of-13
+- ASP.NET - Introducing Blazor: Structure and Debugging: https://docs.microsoft.com/en-us/shows/ASPNET-Core-101/ASPNET-Introducing-Blazor-Structure-and-Debugging-11-of-13
+- ASP.NET - Introducing Blazor: Interactivity: https://docs.microsoft.com/en-us/shows/ASPNET-Core-101/ASPNET-Introducing-Blazor-Interactivity-12-of-13
